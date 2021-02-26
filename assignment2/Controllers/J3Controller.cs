@@ -58,7 +58,8 @@ namespace assignment2.Controllers
            }
            /*once all this was sorted, it would have been easy to just return the string and integer values
             * to show direction and number of steps to take. But my issue is the Stack class now which is
-            not able to a return string type*/
+            not able to a return string type. Once this code had started to work we can scale it up to other integer inputs
+           to get the whole set of instructions*/
            return signal + x.ToString() + y.ToString() + z.ToString();
 
         }
